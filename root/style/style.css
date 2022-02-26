@@ -5,8 +5,104 @@
 }
 
 body{
-background: url('/root/img/fondo.jpg');  
-background-repeat: no-repeat;
-background-size: cover;
-/*background-position: center;*/
+   background: url('/root/img/fondo.jpg');  
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Dancing Script', cursive;
+   font-size: large;
+}
+
+.barra_nav{
+    display: flex;
+    height: 80px;
+    background-color: rgba(9, 139, 139, 0.2);
+    background-attachment: fixed;
+    margin-top: 25px;
+}
+
+.contenedor_logo{
+    display: flex;
+    /*background-color: brown;*/
+    width: 400px;
+}
+
+.contenedor_logo > p{
+    margin: 12px;
+    color: aqua;
+}
+.foto_logo{
+    height: 60px;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 35px;
+    border-style: groove;
+    border-color: green;
+}
+
+.contenedor_barra{
+    /*background-color: blueviolet;*/
+    width: 100%;
+    margin-left: 300px;
+}
+nav > ul > li {
+    list-style: none;
+    display: flex;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    margin: 35px;
+}
+
+nav > ul > li > a:hover {
+    font-size: x-large;
+    color: green;
+  
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;    
+}
+
+section{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+
+.formulario{
+    display: flex;
+    width: 45%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.4);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    margin-bottom: 15px;
+    height: 30px;
+    width: 150%;
+    border-radius: 10px;
+    border-style:hidden;
+}
+
+form label {
+    color:aqua;
+}
+
+#boton{
+    background-color: rgba(0, 128, 0, 0.5);
+    color: white;
+    font-weight: bold;
 }
